@@ -6,16 +6,15 @@ body {
 
 ul {
     display: flex;
-    gap: 60px;
+    gap: 120px;
     list-style: none;
 }
 
 .contrainer-header {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
     align-items: center;
+    margin: 10px 130px 10px 95px;
 }
 
 main {
@@ -39,9 +38,35 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 350px;
+    padding-left: 130px;
 }
 
 .contin {
     margin-left: 3px;
 }
+
+.top {
+    background-color: rgb(197, 153, 70);
+    color: white;
+}
+
+.top-con {
+    padding: 7px 130px 7px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
+.fonts1 {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.fonts2 {
+    font-family: "Lexend Deca", sans-serif;
+}
+
