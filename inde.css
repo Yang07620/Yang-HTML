@@ -88,3 +88,21 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.email-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.footer-cont-total {
+    padding: 10px;
+}
+
