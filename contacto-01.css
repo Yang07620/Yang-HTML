@@ -1,8 +1,9 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 }
-
 
 ul {
     display: flex;
@@ -15,34 +16,6 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin: 10px 130px 10px 95px;
-}
-
-main {
-    background-image: url(img/123.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-h1 {
-    margin: 0;
-    font-size: 50px;
-}
-
-.titol {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;;
-}
-
-.es-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 130px;
-}
-
-.contin {
-    margin-left: 3px;
 }
 
 .top {
@@ -71,19 +44,32 @@ h1 {
     font-size: 20px;
     letter-spacing: 2px;
 }
+/*Tamaño de la imagen*/
 
-button {
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    background-color: rgb(255, 125, 19);
+.foto {
+    width: 25px;
+    height: 25px;
+}
+/*Mail*/
+
+.mail {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-footer {
-    background-color: rgb(204, 165, 93);
+/*Text*/
+
+.mensaje {
+    display: block;
+
 }
 
+textarea {
+    resize: none;
+}
+
+/*Footer*/
 .email-link {
     color: white;
     text-decoration: none;
